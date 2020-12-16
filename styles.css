@@ -1,0 +1,48 @@
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: green; }
+}
+
+
+body{
+  background-color:black;
+  color:green;
+  font-family:monospace ;
+  text-align:center;
+  height:100%;
+}
+
+
+
+.overflow{
+  overflow-y: hidden;
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+
+}
+.anim h1 {
+
+  display:inline-block;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid transparent; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation:blink-caret .75s step-end 2;
+
+}
+
+
+
+.anim2 h1{
+  display:inline-block;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid transparent; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+  animation:blink-caret .75s step-end 6;
+}
