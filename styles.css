@@ -11,11 +11,13 @@ body{
   font-family:monospace ;
   text-align:center;
   height:100%;
+  overflow:hidden;
 }
 
 
 
 .overflow{
+
   overflow-y: hidden;
   position: absolute;
   top: 40%;
@@ -44,5 +46,61 @@ body{
     white-space: nowrap; /* Keeps the content on a single line */
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
     letter-spacing: .15em; /* Adjust as needed */
-  animation:blink-caret .75s step-end 6;
+  animation:blink-caret .75s step-end 4;
 }
+
+
+.anim3 h4{
+
+  display:inline-block;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid transparent; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+      margin-top:3.6%;
+    letter-spacing: .15em; /* Adjust as needed */
+  animation:blink-caret .75s step-end infinite;
+}
+
+ul{
+  width: auto;
+}
+
+.skills{
+position:absolute;
+visibility:hidden;
+top:40%;
+right:-110%;
+width:100%;}
+
+
+ .about-me {
+   position:absolute;
+   visibility:hidden;
+   top:30%;
+   top:110%;
+   width:100%;
+   margin: 0 auto;}
+
+ .pWidth{
+   width:40%;
+  margin: 0 auto;
+ }
+
+ .projects{
+   position:absolute;
+   visibility:hidden;
+   top:40%;
+   right:-110%;
+   width:100%;}
+
+
+
+
+
+    .contact-me{
+      position:absolute;
+      visibility:hidden;
+      top:40%;
+      right:-110%;
+      width:100%;}
