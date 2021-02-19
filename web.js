@@ -1,7 +1,8 @@
 let i = 0;
 let arr = [{text:'Ignacio Iannello',id:"#mainTitle"},
 {text:'Soluciones Informaticas',id:"#secondTitle"},
-{text:'Press enter to continue',id:"#enterText"}];
+{text:'Ignacioiannello7@gmail.com',id:"#email"},
+{text:'+541167929767',id:"#whatsapp"}];
 let text = arr.shift();
 let timer = setInterval(writeText, 60);
 
@@ -10,10 +11,9 @@ let hasFinished = false;
 let totalMoved =0;
 
 
-let divArr = [".about-me",".skills",".projects",".contact-me"];
-let onArr = 0;
-
-let timeScroll = 150;
+//let divArr = [".about-me",".skills",".projects",".contact-me"];
+//let onArr = 0;
+//let timeScroll = 150;
 
 
 function writeText(){
@@ -34,7 +34,7 @@ function writeText(){
 
 
 
-document.addEventListener('keydown', function(event){
+/*document.addEventListener('keydown', function(event){
 
   if(event.keyCode === 39 && hasFinished && onArr < divArr.length-1){
     $(divArr[onArr]).animate({left:"-1500px"},timeScroll);
@@ -91,16 +91,11 @@ $(divArr[onArr]).animate({left:"-=1000px"},200);
    $(divArr[onArr]).animate({right:"50%"},200);
    next();
  });
-}*/
-
-
-
+}
 });
-
-
-
 
 function moveDiv(){
   totalMoved+=20;
   $(".overflow").animate({top:totalMoved + "px"});
 }
+*/

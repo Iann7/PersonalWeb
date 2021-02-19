@@ -95,12 +95,17 @@ width:100%;}
    width:100%;}
 
 
+   .contact-me{
+    position:absolute;
+    visibility:hidden;
+    top:40%;
+    right:-110%;
+    width:100%;}
 
 
+    @media (max-width:870px) {
 
-    .contact-me{
-      position:absolute;
-      visibility:hidden;
-      top:40%;
-      right:-110%;
-      width:100%;}
+      body{
+        font-size: 1.1rem;
+      }
+    }
