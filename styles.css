@@ -105,7 +105,45 @@ width:100%;}
 
     @media (max-width:870px) {
 
-      body{
-        font-size: 1.1rem;
+      #mainTitle, #secondTitle {
+      font-size: 1.8rem;
+      }
+
+      #secondTitle {
+         font-size: 1.2rem;
+      }
+       #email ,   #whatsapp {
+        font-size: 1rem;
+      }
+    }
+
+    @media (max-width:400px) {
+
+        #mainTitle {
+        font-size: 1.8rem;
+      }
+
+       #secondTitle {
+          font-size: 1.2rem;
+       }
+
+      #email ,   #whatsapp {
+        font-size: 1rem;
+      }
+    }
+
+
+    @media (max-width:335px) {
+
+        #mainTitle {
+        font-size: 1.6rem;
+      }
+
+       #secondTitle {
+          font-size: 1rem;
+       }
+
+      #email ,   #whatsapp {
+        font-size: 0.8rem;
       }
     }
